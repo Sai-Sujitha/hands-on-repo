@@ -1,0 +1,23 @@
+git config --global user.name "Your Name"
+git config --global user.email "your Email"
+git config --global --list - show the list of username, email
+
+git init - do in the specific folder 
+git status - to check the untracked/not commited files
+git add <filename> <filename> - specific files 
+git add . - all changes 
+git commit -m "" - message - in local repo 
+git remote add origin <git url>
+git branch -M main - to change from master to main 
+git push -u origin
+
+------------
+Branch 
+
+git branch name 
+git branch - to show the current branch
+git switch branchname - change to that Branch
+git switch -c branchname - create+switch
+git branch -d branchname - delete the branch when u r outisde of the branch
+git branch -D branchname - delete the branch by force
+
